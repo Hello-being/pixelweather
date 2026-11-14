@@ -1,0 +1,44 @@
+# Pixel Weather Station: Game Rules
+
+## Goal
+
+Keep the town's mood meter between 1 and 99 for the full 90 seconds.
+
+## Mood Meter
+
+- The mood meter starts at **50**.
+- It ranges from **0 to 100**.
+- If it reaches **0** or **100**, the game ends and you lose.
+
+## Weather
+
+The weather changes every **5 to 8 seconds**, chosen at random from:
+
+| Weather | Effect on mood |
+| :--- | :--- |
+| Sunny | Slowly increases mood |
+| Rain | Decreases mood unless the umbrella is up |
+| Wind | Decreases mood unless the shelter covers the houses |
+| Lightning | Sudden drop of 8 mood, with a white flash |
+
+## Shelter and Umbrella
+
+- The **shelter** moves left and right. It covers the houses when it sits between the left and right parts of the screen.
+- The **umbrella** blocks rain. Press **SPACE** to raise it for **3 seconds**.
+- After the umbrella goes down, it has a **5-second cooldown** before you can use it again.
+
+## Winning and Losing
+
+- **Win:** Survive 90 seconds with the mood never reaching 0 or 100.
+- **Lose:** The mood reaches 0 or 100 at any time.
+
+## Controls
+
+- **Left / Right arrows or A / D:** Move the shelter
+- **SPACE:** Raise the umbrella (or start and restart on the title and end screens)
+- **R:** Restart the game
+- **ESC:** Quit
+
+## Scoring Notes
+
+There is no point score. The game is won by lasting 90 seconds in balance.
